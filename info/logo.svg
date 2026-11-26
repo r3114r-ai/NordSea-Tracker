@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="150" viewBox="0 0 520 150" role="img" aria-label="NordSea Export logo">
+  <rect width="520" height="150" rx="18" fill="#0B2E4F"/>
+  <g fill="#EAF4FA">
+    <ellipse cx="86" cy="66" rx="40" ry="22"/>
+    <path d="M118 66 L150 46 L150 86 Z"/>
+    <path d="M60 88 q26 14 52 0 l-6 12 q-20 8 -40 0 Z" opacity="0.55"/>
+  </g>
+  <circle cx="66" cy="60" r="5" fill="#0B2E4F"/>
+  <g stroke="#4FC3F7" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M40 116 q12 -13 24 0 t24 0 t24 0 t24 0"/>
+  </g>
+  <text x="184" y="76" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700" fill="#FFFFFF" letter-spacing="2">NORDSEA</text>
+  <text x="186" y="106" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#8FD0F0" letter-spacing="7">EXPORT · B2B</text>
+</svg>

@@ -1,0 +1,6 @@
+node_modules/
+data/inquiries.json
+data/inquiries.json.tmp
+data/users.json
+*.log
+.env

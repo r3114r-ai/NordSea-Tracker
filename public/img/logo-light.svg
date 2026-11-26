@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="190" height="44" viewBox="0 0 190 44" role="img" aria-label="NordSea Export">
+  <g fill="#EAF4FA">
+    <ellipse cx="22" cy="20" rx="16" ry="9"/>
+    <path d="M35 20 L50 11.5 L50 28.5 Z"/>
+  </g>
+  <circle cx="15" cy="18" r="2.2" fill="#0B2E4F"/>
+  <path d="M9 34 q7 -7 14 0 t14 0" fill="none" stroke="#4FC3F7" stroke-width="3" stroke-linecap="round"/>
+  <text x="58" y="27" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" letter-spacing="1.5">NORDSEA</text>
+</svg>

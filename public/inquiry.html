@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B2B Inquiry — NordSea Export</title>
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><img src="/img/logo.svg" alt="NordSea Export" height="34"></a>
+    <nav class="nav-links">
+      <a href="index.html" data-i18n="nav.home"></a>
+      <a href="products.html" data-i18n="nav.products"></a>
+      <a href="terms.html" data-i18n="nav.terms"></a>
+      <a href="about.html" data-i18n="nav.about"></a>
+      <a href="contacts.html" data-i18n="nav.contacts"></a>
+      <a href="inquiry.html" class="cta active" data-i18n="nav.inquiry"></a>
+    </nav>
+    <div class="lang-switch hidden-until-i18n">
+      <button data-lang="en">EN</button><button data-lang="ru">RU</button>
+    </div>
+    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <div class="container page-head">
+    <h1 data-i18n="inquiry.title"></h1>
+    <p data-i18n="inquiry.sub"></p>
+  </div>
+
+  <div class="container">
+    <div class="form-wrap">
+      <form id="inquiry-form" novalidate>
+        <div class="form-grid">
+          <div class="field">
+            <label for="f-company"><span data-i18n="form.company"></span> <span class="req">*</span></label>
+            <input id="f-company" name="company" type="text" maxlength="120" data-i18n-placeholder="form.company">
+            <span class="hint" data-i18n="form.required"></span>
+          </div>
+          <div class="field">
+            <label for="f-country"><span data-i18n="form.country"></span> <span class="req">*</span></label>
+            <input id="f-country" name="country" type="text" maxlength="80" data-i18n-placeholder="form.country">
+            <span class="hint" data-i18n="form.required"></span>
+          </div>
+          <div class="field">
+            <label for="f-contact"><span data-i18n="form.contact"></span> <span class="req">*</span></label>
+            <input id="f-contact" name="contactName" type="text" maxlength="120" data-i18n-placeholder="form.contact">
+            <span class="hint" data-i18n="form.required"></span>
+          </div>
+          <div class="field">
+            <label for="f-email">Email <span class="req">*</span></label>
+            <input id="f-email" name="email" type="email" maxlength="120" data-i18n-placeholder="form.email">
+            <span class="hint" data-i18n="form.errorEmail"></span>
+          </div>
+          <div class="field">
+            <label for="f-phone" data-i18n="form.phone"></label>
+            <input id="f-phone" name="phone" type="text" maxlength="60">
+          </div>
+          <div class="field">
+            <label for="f-product" data-i18n="form.product"></label>
+            <select id="f-product" name="product"><option value=""></option></select>
+          </div>
+          <div class="field full">
+            <label for="f-volume" data-i18n="form.volume"></label>
+            <input id="f-volume" name="volume" type="text" maxlength="120">
+          </div>
+          <div class="field full">
+            <label for="f-message" data-i18n="form.message"></label>
+            <textarea id="f-message" name="message" rows="4" maxlength="2000"></textarea>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" data-i18n="form.submit"></button>
+          <span class="form-note"><span class="req" style="color:#C62828">*</span> — <span data-i18n="form.required"></span></span>
+        </div>
+      </form>
+
+      <div id="success-box" class="success-box" style="display:none">
+        <div class="icon">✅</div>
+        <h2 data-i18n="form.success.title"></h2>
+        <p data-i18n="form.success.text"></p>
+        <button id="send-again" class="btn btn-outline-dark" data-i18n="form.again"></button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <img src="/img/logo-light.svg" alt="NordSea Export" height="40">
+        <p style="margin-top:12px;font-size:14px" data-i18n="footer.tagline"></p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.nav"></h4>
+        <a href="index.html" data-i18n="nav.home"></a>
+        <a href="products.html" data-i18n="nav.products"></a>
+        <a href="inquiry.html" data-i18n="nav.inquiry"></a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.contact"></h4>
+        <a href="mailto:sales@nordsea-export.com">sales@nordsea-export.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> NordSea Export — <span data-i18n="footer.rights"></span></span>
+      <span data-i18n="footer.priceNote"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/i18n.js"></script>
+<script src="/assets/js/catalog.js"></script>
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/inquiry.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "nordsea-export-b2b",
+  "version": "0.1.0",
+  "description": "MVP B2B-платформа экспортёра рыбы и морепродуктов с канбан-трекером оптовых запросов",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

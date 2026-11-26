@@ -1,0 +1,300 @@
+{
+  "categories": [
+    {
+      "id": "frozen-fish",
+      "icon": "🐟",
+      "name": {
+        "en": "Frozen Fish",
+        "ru": "Мороженая рыба"
+      }
+    },
+    {
+      "id": "seafood",
+      "icon": "🦐",
+      "name": {
+        "en": "Seafood",
+        "ru": "Морепродукты"
+      }
+    },
+    {
+      "id": "caviar-salmon",
+      "icon": "🍣",
+      "name": {
+        "en": "Caviar & Salmon",
+        "ru": "Икра и лосось"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "pollock-fillet",
+      "categoryId": "frozen-fish",
+      "icon": "🐟",
+      "visible": true,
+      "name": {
+        "en": "Pollock Fillet PBO",
+        "ru": "Филе минтая ПБО"
+      },
+      "latin": "Gadus chalcogrammus",
+      "specs": {
+        "en": "Grade A, interleaved, blocks 7.5 kg",
+        "ru": "Сорт А, блоковая заморозка, блоки 7,5 кг"
+      },
+      "pack": {
+        "en": "Master carton 20 kg",
+        "ru": "Мастер-короб 20 кг"
+      },
+      "moq": {
+        "en": "MOQ: 1 FCL (24 t)",
+        "ru": "Мин. партия: 1 FCL (24 т)"
+      },
+      "season": {
+        "en": "Seasons A / B",
+        "ru": "Сезоны А / В"
+      }
+    },
+    {
+      "id": "cod-hg",
+      "categoryId": "frozen-fish",
+      "icon": "🐟",
+      "visible": true,
+      "name": {
+        "en": "Pacific Cod H&G",
+        "ru": "Треска тихоокеанская H&G"
+      },
+      "latin": "Gadus macrocephalus",
+      "specs": {
+        "en": "Sizes 0.5–1 / 1–2 / 2+ kg, glazed",
+        "ru": "Калибры 0,5–1 / 1–2 / 2+ кг, глазировка"
+      },
+      "pack": {
+        "en": "Master carton 25 kg",
+        "ru": "Мастер-короб 25 кг"
+      },
+      "moq": {
+        "en": "MOQ: 1 FCL (26 t)",
+        "ru": "Мин. партия: 1 FCL (26 т)"
+      },
+      "season": {
+        "en": "Year-round",
+        "ru": "Круглый год"
+      }
+    },
+    {
+      "id": "herring",
+      "categoryId": "frozen-fish",
+      "icon": "🐟",
+      "visible": true,
+      "name": {
+        "en": "Pacific Herring",
+        "ru": "Сельдь тихоокеанская"
+      },
+      "latin": "Clupea pallasii",
+      "specs": {
+        "en": "Sizes 200+/300+/400+ g, BQ",
+        "ru": "Калибры 200+/300+/400+ г, BQ"
+      },
+      "pack": {
+        "en": "Carton 22 kg",
+        "ru": "Короб 22 кг"
+      },
+      "moq": {
+        "en": "MOQ: 1 FCL (24 t)",
+        "ru": "Мин. партия: 1 FCL (24 т)"
+      },
+      "season": {
+        "en": "Season: winter",
+        "ru": "Сезон: зима"
+      }
+    },
+    {
+      "id": "shrimp",
+      "categoryId": "seafood",
+      "icon": "🦐",
+      "visible": true,
+      "name": {
+        "en": "Northern Shrimp, cooked",
+        "ru": "Креветка северная, варёно-мороженая"
+      },
+      "latin": "Pandalus borealis",
+      "specs": {
+        "en": "Sizes 90/120, 120/180, shell-on",
+        "ru": "Калибры 90/120, 120/180, в панцире"
+      },
+      "pack": {
+        "en": "Carton 5 × 2 kg",
+        "ru": "Короб 5 × 2 кг"
+      },
+      "moq": {
+        "en": "MOQ: 1 FCL (18 t)",
+        "ru": "Мин. партия: 1 FCL (18 т)"
+      },
+      "season": {
+        "en": "Season: Q2–Q4",
+        "ru": "Сезон: II–IV кв."
+      }
+    },
+    {
+      "id": "squid-tubes",
+      "categoryId": "seafood",
+      "icon": "🦑",
+      "visible": true,
+      "name": {
+        "en": "Squid Tubes & Tentacles",
+        "ru": "Кальмар: тушки и щупальца"
+      },
+      "latin": "Todarodes pacificus",
+      "specs": {
+        "en": "U10 / U5 tubes, cleaned",
+        "ru": "U10 / U5, очищенный"
+      },
+      "pack": {
+        "en": "Carton 10 kg",
+        "ru": "Короб 10 кг"
+      },
+      "moq": {
+        "en": "MOQ: 1 FCL (20 t)",
+        "ru": "Мин. партия: 1 FCL (20 т)"
+      },
+      "season": {
+        "en": "Season: Q3–Q1",
+        "ru": "Сезон: III–I кв."
+      }
+    },
+    {
+      "id": "mussels",
+      "categoryId": "seafood",
+      "icon": "🦪",
+      "visible": true,
+      "name": {
+        "en": "Mussels Half Shell",
+        "ru": "Мидии на половинке раковины"
+      },
+      "latin": "Mytilus galloprovincialis",
+      "specs": {
+        "en": "Sized 8–12 pcs/kg, IQF",
+        "ru": "Калибр 8–12 шт/кг, IQF"
+      },
+      "pack": {
+        "en": "Carton 6 × 1 kg",
+        "ru": "Короб 6 × 1 кг"
+      },
+      "moq": {
+        "en": "MOQ: 1 FCL (16 t)",
+        "ru": "Мин. партия: 1 FCL (16 т)"
+      },
+      "season": {
+        "en": "Year-round",
+        "ru": "Круглый год"
+      }
+    },
+    {
+      "id": "salmon-caviar",
+      "categoryId": "caviar-salmon",
+      "icon": "🍣",
+      "visible": true,
+      "name": {
+        "en": "Salmon Caviar, salted",
+        "ru": "Икра лососевая зернистая"
+      },
+      "latin": "Oncorhynchus spp.",
+      "specs": {
+        "en": "Chum / pink, salt 4–6%, 500 g tins",
+        "ru": "Кета / горбуша, соль 4–6%, банки 500 г"
+      },
+      "pack": {
+        "en": "Tin 500 g, tray 24 tins",
+        "ru": "Банка 500 г, лоток 24 банки"
+      },
+      "moq": {
+        "en": "MOQ: 1 FCL (12 t)",
+        "ru": "Мин. партия: 1 FCL (12 т)"
+      },
+      "season": {
+        "en": "Season: Q3–Q4",
+        "ru": "Сезон: III–IV кв."
+      }
+    },
+    {
+      "id": "pink-salmon",
+      "categoryId": "caviar-salmon",
+      "icon": "🐠",
+      "visible": true,
+      "name": {
+        "en": "Pink Salmon H&G",
+        "ru": "Горбуша H&G"
+      },
+      "latin": "Oncorhynchus gorbuscha",
+      "specs": {
+        "en": "Sizes 1–2 kg, sea-frozen",
+        "ru": "Калибр 1–2 кг, морская заморозка"
+      },
+      "pack": {
+        "en": "Carton 22 kg",
+        "ru": "Короб 22 кг"
+      },
+      "moq": {
+        "en": "MOQ: 1 FCL (24 t)",
+        "ru": "Мин. партия: 1 FCL (24 т)"
+      },
+      "season": {
+        "en": "Season: Q3",
+        "ru": "Сезон: III кв."
+      }
+    },
+    {
+      "id": "chum-fillet",
+      "categoryId": "caviar-salmon",
+      "icon": "🐠",
+      "visible": true,
+      "name": {
+        "en": "Chum Salmon Fillet",
+        "ru": "Филе кеты"
+      },
+      "latin": "Oncorhynchus keta",
+      "specs": {
+        "en": "Fillet V-cut, skin-on / skinless",
+        "ru": "Филе V-нарезка, на коже / без кожи"
+      },
+      "pack": {
+        "en": "Carton 20 kg",
+        "ru": "Короб 20 кг"
+      },
+      "moq": {
+        "en": "MOQ: 1 FCL (22 t)",
+        "ru": "Мин. партия: 1 FCL (22 т)"
+      },
+      "season": {
+        "en": "Season: Q3–Q4",
+        "ru": "Сезон: III–IV кв."
+      }
+    },
+    {
+      "id": "p-mwxl3vx2",
+      "categoryId": "frozen-fish",
+      "icon": "🧪",
+      "visible": true,
+      "name": {
+        "en": "[TEST] role check product",
+        "ru": ""
+      },
+      "latin": "",
+      "specs": {
+        "en": "",
+        "ru": ""
+      },
+      "pack": {
+        "en": "",
+        "ru": ""
+      },
+      "moq": {
+        "en": "",
+        "ru": ""
+      },
+      "season": {
+        "en": "",
+        "ru": ""
+      }
+    }
+  ]
+}
